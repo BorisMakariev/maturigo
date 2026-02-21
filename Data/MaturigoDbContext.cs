@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace maturigo.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class MaturigoDbContext : IdentityDbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+        public MaturigoDbContext(DbContextOptions<MaturigoDbContext> options)
             : base(options)
         {
         }
