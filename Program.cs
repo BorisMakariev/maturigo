@@ -1,4 +1,5 @@
 using maturigo.Data;
+using maturigo.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,9 +17,19 @@ namespace maturigo
                 options.UseMySQL(connectionString));
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-            builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            builder.Services.AddDefaultIdentity<IdentityUser>(options =>
+            {
+                options.SignIn.RequireConfirmedAccount = false;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireDigit = false;
+                options.Password.RequireUppercase = false;
+                options.Password.RequireLowercase = false;
+                options.Password.RequiredLength = 2;
+                })
                 .AddEntityFrameworkStores<MaturigoDbContext>();
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddTransient<ExamService>();
 
             var app = builder.Build();
 
