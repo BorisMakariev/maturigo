@@ -37,7 +37,7 @@ namespace maturigo.Controllers
                 qc.Exams = examsForViewModel;
                 return View(qc);
             }
-            return Content("probably not logged in");
+            return Redirect("/Identity/Account/Login");
         }
 
         [HttpPost]
@@ -47,8 +47,20 @@ namespace maturigo.Controllers
             {
                 Question questionForDb = new Question(viewModel.dto.ExamId, viewModel.dto.Body);
                 _questionService.Create(questionForDb);
+
+                string userId = _userManager.GetUserId(User);
+                var exams = _examService.GetExamsByUserId(userId);
+                List<SelectListItem> examsForViewModel = new List<SelectListItem>();
+                foreach (var exam in exams)
+                {
+                    examsForViewModel.Add(new SelectListItem { Value = exam.Id, Text = exam.Title });
+                }
+
+                viewModel.Exams = examsForViewModel;
+
             }
-            return RedirectToAction("Index", "Home");
+            viewModel.dto = new QuestionDTO();
+            return View(viewModel);
         }
     }
 }

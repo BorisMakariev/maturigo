@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\boris\\Desktop\\maturigo\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|c:\\users\\boris\\desktop\\maturigo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|c:\\users\\boris\\desktop\\maturigo\\views\\trial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|solutionrelative:views\\trial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|c:\\users\\boris\\desktop\\maturigo\\controllers\\trialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|solutionrelative:controllers\\trialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|c:\\users\\boris\\desktop\\maturigo\\controllers\\answercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|solutionrelative:controllers\\answercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,58 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\boris\\Desktop\\maturigo\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\boris\\Desktop\\maturigo\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-19T14:18:24.999Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AnswerController.cs",
-              "DocumentMoniker": "C:\\Users\\boris\\Desktop\\maturigo\\Controllers\\AnswerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AnswerController.cs",
-              "ToolTip": "C:\\Users\\boris\\Desktop\\maturigo\\Controllers\\AnswerController.cs",
-              "RelativeToolTip": "Controllers\\AnswerController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwA0AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T14:12:19.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TrialController.cs",
-              "DocumentMoniker": "C:\\Users\\boris\\Desktop\\maturigo\\Controllers\\TrialController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TrialController.cs",
-              "ToolTip": "C:\\Users\\boris\\Desktop\\maturigo\\Controllers\\TrialController.cs",
-              "RelativeToolTip": "Controllers\\TrialController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T14:06:37.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\boris\\Desktop\\maturigo\\Views\\Trial\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Trial\\Index.cshtml",
-              "ToolTip": "C:\\Users\\boris\\Desktop\\maturigo\\Views\\Trial\\Index.cshtml",
-              "RelativeToolTip": "Views\\Trial\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-19T14:07:28.717Z",
-              "EditorCaption": ""
             }
           ]
         }

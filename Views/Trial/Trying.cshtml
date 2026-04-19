@@ -1,0 +1,6 @@
+﻿@using maturigo.Models.DTOs
+@model maturigo.Models.ViewModels.TrialTryingModel
+@foreach (QuestionDTO q in Model.questions)
+{
+	<h2>@q.Body</h2>
+}

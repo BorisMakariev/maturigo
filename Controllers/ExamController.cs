@@ -30,9 +30,9 @@ namespace maturigo.Controllers
                 string userId = _userManager.GetUserId(User);
                 Exam examForDb = new Exam(userId, exam.Title);
                 _examService.Create(examForDb);
-                return Content("created new exam");
+                return View();
             }
-            return Content("probably not logged in, didnt create new exam");
+            return Redirect("/Identity/Account/Login");
         }
 
     }

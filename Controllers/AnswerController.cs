@@ -38,7 +38,7 @@ namespace maturigo.Controllers
                 ac.Exams = examsForViewModel;
                 return View(ac);
             }
-            return Content("probably not logged in");
+            return Redirect("/Identity/Account/Login");
         }
         [HttpPost]
         public IActionResult Create(AnswerCreateModel viewModel)
