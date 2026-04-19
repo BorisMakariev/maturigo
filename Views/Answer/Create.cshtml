@@ -1,5 +1,5 @@
 ﻿@model maturigo.Models.ViewModels.AnswerCreateModel
-<form asp-action="Index" method="post">
+<form asp-action="Create" method="post">
     <select asp-for="SelectedExamId"
             asp-items="Model.Exams"
             onchange="this.form.submit()">

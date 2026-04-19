@@ -22,7 +22,7 @@ namespace maturigo.Controllers
             _answerService = answerService;
         }
         [HttpGet]
-        public IActionResult Index()
+        public IActionResult Create()
         {
             if (User.Identity.IsAuthenticated)
             {
@@ -41,7 +41,7 @@ namespace maturigo.Controllers
             return Content("probably not logged in");
         }
         [HttpPost]
-        public IActionResult Index(AnswerCreateModel viewModel)
+        public IActionResult Create(AnswerCreateModel viewModel)
         {
             string userId = _userManager.GetUserId(User);
             viewModel.Exams = _examService.GetExamsByUserId(userId)

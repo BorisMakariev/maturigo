@@ -16,5 +16,12 @@ namespace maturigo.Models.Entities
         public string Id { get; set; }
         public string ExamId { get; set; }
         public string Body { get; set; }
+
+        public void Copy(Question other)
+        {
+            this.Id = other.Id;
+            this.ExamId = other.ExamId;
+            this.Body = other.Body;
+        }
     }
 }

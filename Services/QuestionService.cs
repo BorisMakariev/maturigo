@@ -22,5 +22,22 @@ namespace maturigo.Services
         {
             return _context.Questions.Where(q => q.ExamId == examId).ToList();
         }
+
+        public void DeleteById(string id)
+        {
+            _context.Questions.Remove(_context.Questions.First(q => q.Id == id));
+            _context.SaveChanges();
+        }
+
+        public void Update(Question question)
+        {
+            Question questionFromDb = _context.Questions.FirstOrDefault(q => q.Id == question.Id);
+            if (questionFromDb != null)
+            {
+                _context.Update(questionFromDb);
+                questionFromDb.Copy(question);
+                _context.SaveChanges();
+            }
+        }
     }
 }

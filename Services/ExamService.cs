@@ -22,5 +22,27 @@ namespace maturigo.Services
         {
             return _context.Exams.Where(e => e.OwnerId == userId).ToList();
         }
+
+        public List<Exam> GetAllExams()
+        {
+            return _context.Exams.ToList();
+        }
+
+        public void DeleteById(string id)
+        {
+            _context.Exams.Remove(_context.Exams.First(e => e.Id == id));
+            _context.SaveChanges();
+        }
+
+        public void Update(Exam exam)
+        {
+            Exam examFromDb = _context.Exams.FirstOrDefault(e => e.Id == exam.Id);
+            if (examFromDb != null)
+            {
+                _context.Update(examFromDb);
+                examFromDb.Copy(exam);
+                _context.SaveChanges();
+            }
+        }
     }
 }

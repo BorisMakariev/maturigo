@@ -1,0 +1,7 @@
+﻿@model maturigo.Models.ViewModels.TrialIndexModel
+@{
+	for (int i = 0; i < Model.Exams.Count; i++)
+	{
+		<h2>@Model.Exams[i].Title</h2>
+	}
+}
