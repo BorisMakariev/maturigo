@@ -1,0 +1,18 @@
+﻿@model maturigo.Models.ViewModels.AnswerCreateModel
+<form asp-action="Index" method="post">
+    <select asp-for="SelectedExamId"
+            asp-items="Model.Exams"
+            onchange="this.form.submit()">
+        <option value="">Select Exam</option>
+    </select>
+
+    <select asp-for="dto.QuestionId"
+            asp-items="Model.Questions">
+        <option value="">Select Question</option>
+    </select>
+    <input type="text" asp-for="dto.Body" />
+    <p>is correct</p>
+    <input type="checkbox" asp-for="dto.IsCorrect">
+    <button type="submit">Save/Submit</button>
+
+</form>

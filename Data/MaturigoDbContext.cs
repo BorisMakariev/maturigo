@@ -8,6 +8,7 @@ namespace maturigo.Data
     {
         public DbSet<Exam> Exams { get; set; }
         public DbSet<Question> Questions { get; set; }
+        public DbSet<Answer> Answers { get; set; }
         public MaturigoDbContext(DbContextOptions<MaturigoDbContext> options)
             : base(options)
         {
@@ -20,8 +21,11 @@ namespace maturigo.Data
             builder.Entity<Exam>().HasKey(e => e.Id);
             builder.Entity<Exam>().Property(e => e.Id).ValueGeneratedOnAdd();
 
-            builder.Entity<Question>().HasKey(e => e.Id);
-            builder.Entity<Question>().Property(e => e.Id).ValueGeneratedOnAdd();
+            builder.Entity<Question>().HasKey(q => q.Id);
+            builder.Entity<Question>().Property(q => q.Id).ValueGeneratedOnAdd();
+
+            builder.Entity<Answer>().HasKey(a => a.Id);
+            builder.Entity<Answer>().Property(a => a.Id).ValueGeneratedOnAdd();
         }
     }
 }

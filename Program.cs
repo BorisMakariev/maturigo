@@ -30,6 +30,8 @@ namespace maturigo
             builder.Services.AddControllersWithViews();
 
             builder.Services.AddTransient<ExamService>();
+            builder.Services.AddTransient<QuestionService>();
+            builder.Services.AddTransient<AnswerService>();
 
             var app = builder.Build();
 
@@ -56,7 +58,7 @@ namespace maturigo
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
             app.MapRazorPages();
-            //lester tester nester
+
             app.Run();
         }
     }

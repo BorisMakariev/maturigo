@@ -12,9 +12,9 @@ namespace maturigo.Models.Entities
         }
 
         [Key]
-        public required string Id { get; set; }
-        public required string QuestionId { get; set; }
-        public required string Body { get; set; }
-        public required bool IsCorrect { get; set; }
+        public string Id { get; set; }
+        public string QuestionId { get; set; }
+        public string Body { get; set; }
+        public bool IsCorrect { get; set; }
     }
 }

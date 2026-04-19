@@ -1,1 +1,12 @@
-﻿
+﻿@model maturigo.Models.ViewModels.QuestionCreateModel
+@using (Html.BeginForm("Create", "Question", FormMethod.Post))
+{
+	<p>question body</p>
+	@Html.TextBoxFor(qc => qc.dto.Body)
+	
+	<p>dropdown menu</p>
+	@Html.DropDownListFor(qc => qc.dto.ExamId, Model.Exams)
+
+	<button type="submit">Submit/Save</button>
+
+}

@@ -17,5 +17,10 @@ namespace maturigo.Services
             _context.Exams.Add(exam);
             _context.SaveChanges();
         }
+
+        public List<Exam> GetExamsByUserId(string userId)
+        {
+            return _context.Exams.Where(e => e.OwnerId == userId).ToList();
+        }
     }
 }
