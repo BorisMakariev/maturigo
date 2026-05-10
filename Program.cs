@@ -2,7 +2,7 @@ using maturigo.Data;
 using maturigo.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-
+using MySql.EntityFrameworkCore.Extensions;
 namespace maturigo
 {
     public class Program
