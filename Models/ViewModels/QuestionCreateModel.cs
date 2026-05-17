@@ -13,6 +13,8 @@ namespace maturigo.Models.ViewModels
 
         public QuestionDTO dto {get; set;}
 
+        public string linkToImage = "https://i.ytimg.com/vi/kwbnCDeejbc/maxresdefault.jpg";
+
         //public string 
     }
 }

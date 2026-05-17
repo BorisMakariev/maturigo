@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\boris\\Desktop\\maturigo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boris\\Desktop\\maturigo\\Migrations\\20260510090458_mig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260510090458_mig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|c:\\users\\boris\\desktop\\maturigo\\views\\attempt\\make.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|solutionrelative:views\\attempt\\make.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|c:\\users\\boris\\desktop\\maturigo\\data\\maturigodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|solutionrelative:data\\maturigodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|c:\\users\\boris\\desktop\\maturigo\\services\\attemptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|solutionrelative:services\\attemptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|c:\\users\\boris\\desktop\\maturigo\\services\\answerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|solutionrelative:services\\answerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|c:\\users\\boris\\desktop\\maturigo\\controllers\\attemptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|solutionrelative:controllers\\attemptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|c:\\users\\boris\\desktop\\maturigo\\controllers\\answercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|solutionrelative:controllers\\answercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|c:\\users\\boris\\desktop\\maturigo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|c:\\users\\boris\\desktop\\maturigo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|c:\\users\\boris\\desktop\\maturigo\\models\\viewmodels\\attempt\\makevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0CB2760-E662-4301-83B0-858DDD2D22EF}|maturigo.csproj|solutionrelative:models\\viewmodels\\attempt\\makevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,76 +43,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20260510090458_mig.cs",
-              "DocumentMoniker": "C:\\Users\\boris\\Desktop\\maturigo\\Migrations\\20260510090458_mig.cs",
-              "RelativeDocumentMoniker": "Migrations\\20260510090458_mig.cs",
-              "ToolTip": "C:\\Users\\boris\\Desktop\\maturigo\\Migrations\\20260510090458_mig.cs",
-              "RelativeToolTip": "Migrations\\20260510090458_mig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T09:04:58.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AnswerService.cs",
-              "DocumentMoniker": "C:\\Users\\boris\\Desktop\\maturigo\\Services\\AnswerService.cs",
-              "RelativeDocumentMoniker": "Services\\AnswerService.cs",
-              "ToolTip": "C:\\Users\\boris\\Desktop\\maturigo\\Services\\AnswerService.cs",
-              "RelativeToolTip": "Services\\AnswerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T10:08:07.248Z",
+              "Title": "Make.cshtml",
+              "DocumentMoniker": "C:\\Users\\boris\\Desktop\\maturigo\\Views\\Attempt\\Make.cshtml",
+              "RelativeDocumentMoniker": "Views\\Attempt\\Make.cshtml",
+              "ToolTip": "C:\\Users\\boris\\Desktop\\maturigo\\Views\\Attempt\\Make.cshtml",
+              "RelativeToolTip": "Views\\Attempt\\Make.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-17T15:43:25.212Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AnswerController.cs",
-              "DocumentMoniker": "C:\\Users\\boris\\Desktop\\maturigo\\Controllers\\AnswerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AnswerController.cs",
-              "ToolTip": "C:\\Users\\boris\\Desktop\\maturigo\\Controllers\\AnswerController.cs",
-              "RelativeToolTip": "Controllers\\AnswerController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "MakeVM.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\Desktop\\maturigo\\Models\\ViewModels\\Attempt\\MakeVM.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\Attempt\\MakeVM.cs",
+              "ToolTip": "C:\\Users\\boris\\Desktop\\maturigo\\Models\\ViewModels\\Attempt\\MakeVM.cs",
+              "RelativeToolTip": "Models\\ViewModels\\Attempt\\MakeVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T10:19:56.352Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\boris\\Desktop\\maturigo\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\boris\\Desktop\\maturigo\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T07:34:10.522Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\boris\\Desktop\\maturigo\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\boris\\Desktop\\maturigo\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-26T07:30:40.807Z"
+              "WhenOpened": "2026-05-17T15:40:11.675Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MaturigoDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\boris\\Desktop\\maturigo\\Data\\MaturigoDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\MaturigoDbContext.cs",
-              "ToolTip": "C:\\Users\\boris\\Desktop\\maturigo\\Data\\MaturigoDbContext.cs",
-              "RelativeToolTip": "Data\\MaturigoDbContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBcAAAA5AAAAAAAAAA==",
+              "Title": "AttemptService.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\Desktop\\maturigo\\Services\\AttemptService.cs",
+              "RelativeDocumentMoniker": "Services\\AttemptService.cs",
+              "ToolTip": "C:\\Users\\boris\\Desktop\\maturigo\\Services\\AttemptService.cs",
+              "RelativeToolTip": "Services\\AttemptService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAhwCQAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T07:30:37.882Z",
+              "WhenOpened": "2026-05-17T15:14:41.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AttemptController.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\Desktop\\maturigo\\Controllers\\AttemptController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AttemptController.cs",
+              "ToolTip": "C:\\Users\\boris\\Desktop\\maturigo\\Controllers\\AttemptController.cs",
+              "RelativeToolTip": "Controllers\\AttemptController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T15:08:30.981Z",
               "EditorCaption": ""
             }
           ]

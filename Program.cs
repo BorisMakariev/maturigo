@@ -32,6 +32,7 @@ namespace maturigo
             builder.Services.AddTransient<ExamService>();
             builder.Services.AddTransient<QuestionService>();
             builder.Services.AddTransient<AnswerService>();
+            builder.Services.AddTransient<AttemptService>();
 
             var app = builder.Build();
 

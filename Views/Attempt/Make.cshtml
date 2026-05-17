@@ -1,0 +1,40 @@
+﻿@model maturigo.Models.ViewModels.Attempt.MakeVM
+
+<h1>@Model.examDTO.Title</h1>
+
+@{
+	for (int i = 0; i < Model.examDTO.Questions.Count; i++)
+	{
+		<h2>@Model.examDTO.Questions[i].Body</h2>
+
+		bool radio = true;
+		int numOfCorrects = 0;
+		for (int j = 0; j < Model.examDTO.Questions[i].Answers.Count; j++)
+		{
+			if (Model.examDTO.Questions[i].Answers[j].IsCorrect == true)
+			{
+				numOfCorrects++;
+			}
+			if (numOfCorrects > 1)
+			{
+				radio = false;
+				break;
+			}
+		}
+		if (radio == true)
+		{
+			for (int j = 0; j < Model.examDTO.Questions[i].Answers.Count; j++)
+			{
+				@Html.RadioButton(Model.examDTO.Questions[i].Body, Model.examDTO.Questions[i].Answers[j].Body);
+				<span>@Model.examDTO.Questions[i].Answers[j].Body</span>
+			}
+		}else if (radio == false)
+		{
+			for (int j = 0; j < Model.examDTO.Questions[i].Answers.Count; j++)
+			{
+				@Html.CheckBox(Model.examDTO.Questions[i].Body, Model.examDTO.Questions[i].Answers[j].Body);
+				<span>@Model.examDTO.Questions[i].Answers[j].Body</span>
+			}
+		}
+	}
+}

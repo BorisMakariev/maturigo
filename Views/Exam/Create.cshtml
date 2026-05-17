@@ -1,7 +1,12 @@
 ﻿@model maturigo.Models.DTOs.ExamDTO
 @using (Html.BeginForm("Create", "Exam", FormMethod.Post))
 {
+
 	@Html.TextBoxFor(e => e.Title)
+
+	<button type="button" name="action" value="addQuestion">CLICK ME</button>
+
 	<button type="submit">Submit/Save</button>
+
 
 }
