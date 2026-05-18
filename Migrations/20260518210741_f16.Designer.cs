@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using maturigo.Data;
 
@@ -10,9 +11,11 @@ using maturigo.Data;
 namespace maturigo.Migrations
 {
     [DbContext(typeof(MaturigoDbContext))]
-    partial class MaturigoDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260518210741_f16")]
+    partial class f16
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

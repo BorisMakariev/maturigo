@@ -2,15 +2,20 @@
 
 <h1>@Model.examDTO.Title</h1>
 
-@{
+@using (Html.BeginForm("Make", "Attempt", FormMethod.Post))
+{
+	@Html.HiddenFor(m => m.examDTO.Id, Model.examDTO.Id);
+	@Html.HiddenFor(m => m.UserId, Model.UserId);
 	for (int i = 0; i < Model.examDTO.Questions.Count; i++)
 	{
 		<h2>@Model.examDTO.Questions[i].Body</h2>
-
+		@Html.HiddenFor(m => m.examDTO.Questions[i].Id, Model.examDTO.Questions[i].Id);
 		bool radio = true;
 		int numOfCorrects = 0;
 		for (int j = 0; j < Model.examDTO.Questions[i].Answers.Count; j++)
 		{
+			@Html.HiddenFor(m => m.examDTO.Questions[i].Answers[j].IsCorrect, Model.examDTO.Questions[i].Answers[j].IsCorrect);
+			@Html.HiddenFor(m => m.examDTO.Questions[i].Answers[j].Id, Model.examDTO.Questions[i].Answers[j].Id);
 			if (Model.examDTO.Questions[i].Answers[j].IsCorrect == true)
 			{
 				numOfCorrects++;
@@ -25,16 +30,19 @@
 		{
 			for (int j = 0; j < Model.examDTO.Questions[i].Answers.Count; j++)
 			{
-				@Html.RadioButton(Model.examDTO.Questions[i].Body, Model.examDTO.Questions[i].Answers[j].Body);
+				@Html.RadioButtonFor(m => m.examDTO.Questions[i].GivenAnswerId, Model.examDTO.Questions[i].Answers[j].Id);
+				
+
 				<span>@Model.examDTO.Questions[i].Answers[j].Body</span>
 			}
 		}else if (radio == false)
 		{
 			for (int j = 0; j < Model.examDTO.Questions[i].Answers.Count; j++)
 			{
-				@Html.CheckBox(Model.examDTO.Questions[i].Body, Model.examDTO.Questions[i].Answers[j].Body);
+				@Html.CheckBoxFor(m => m.examDTO.Questions[i].Answers[j].IsSelected, true);
 				<span>@Model.examDTO.Questions[i].Answers[j].Body</span>
 			}
 		}
 	}
+	<button type="submit">Submit</button>
 }

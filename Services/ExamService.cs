@@ -18,6 +18,11 @@ namespace maturigo.Services
             _context.SaveChanges();
         }
 
+        public Exam GetExamById(string id)
+        {
+            return _context.Exams.FirstOrDefault(e => e.Id == id);
+        }
+
         public List<Exam> GetExamsByUserId(string userId)
         {
             return _context.Exams.Where(e => e.OwnerId == userId).ToList();

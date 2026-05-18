@@ -15,6 +15,11 @@ namespace maturigo.Services
             _context.SaveChanges();
         }
 
+        public Answer GetAnswerById(string id)
+        {
+            return _context.Answers.FirstOrDefault(a => a.Id == id);
+        }
+
         public List<Answer> GetAnswersByQuestionId(string questionId)
         {
             return _context.Answers.Where(a => a.QuestionId == questionId).ToList();

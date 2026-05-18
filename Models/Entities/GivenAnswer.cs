@@ -8,5 +8,6 @@ namespace maturigo.Models.Entities
         public string Id { get; set; }
         public string AttemptId { get; set; }
         public string AnswerId { get; set; }
+        public string QuestionId { get; set; }
     }
 }

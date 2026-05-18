@@ -9,6 +9,8 @@ namespace maturigo.Data
         public DbSet<Exam> Exams { get; set; }
         public DbSet<Question> Questions { get; set; }
         public DbSet<Answer> Answers { get; set; }
+        public DbSet<Attempt> Attempts { get; set; }
+        public DbSet<GivenAnswer> GivenAnswers { get; set; }
         public MaturigoDbContext(DbContextOptions<MaturigoDbContext> options)
             : base(options)
         {
@@ -26,6 +28,12 @@ namespace maturigo.Data
 
             builder.Entity<Answer>().HasKey(a => a.Id);
             builder.Entity<Answer>().Property(a => a.Id).ValueGeneratedOnAdd();
+
+            builder.Entity<Attempt>().HasKey(a => a.Id);
+            builder.Entity<Attempt>().Property(a => a.Id).ValueGeneratedOnAdd();
+
+            builder.Entity<GivenAnswer>().HasKey(g => g.Id);
+            builder.Entity<GivenAnswer>().Property(g => g.Id).ValueGeneratedOnAdd();
         }
     }
 }
